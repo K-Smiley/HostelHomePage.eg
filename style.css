@@ -3,54 +3,49 @@
 /* default styles for document */
 
 body {
-	width: 90%;
-	max-width: 1024px;
-	margin: 2em auto;
-	background: #eee;
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: 0.8em;
+  width: 90%;
+  max-width: 1024px;
+  margin: 2em auto;
+  background: #eee;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 0.8em;
 }
 /* change the default style for tags */
 h1 {
-	font-size: 1.4em;
-	color:#030;
+  font-size: 1.4em;
+  color: #030;
 }
 h2 {
-	font-size: 1.2em;
-	color:#030;
+  font-size: 1.2em;
+  color: #030;
 }
 h3 {
-	font-size: 1em;
-	color:#030;
+  font-size: 1em;
+  color: #030;
 }
 
 /* header area */
 header {
-	width: 100%;
-	padding: 1em;
-	border: 1px solid #DFDCDC;
-	border-radius: 15px 15px 15px 15px;
+  width: 100%;
+  padding: 1em;
+  border: 1px solid #dfdcdc;
+  border-radius: 15px 15px 15px 15px;
 }
 /* main content area */
 main {
-	display: inline-block;
-	width: 70%;
-	height: 500px;
+  display: inline-block;
+  width: 70%;
+  height: 500px;
 }
 /* navigation styles*/
 nav {
-	min-width: 400px;	
+  min-width: 400px;
 }
 nav li {
-	display: inline-block;
-	padding: 1%;
+  display: inline-block;
+  padding: 1%;
 }
 nav li a {
-	text-decoration: none;
-	color:#666;
+  text-decoration: none;
+  color: #666;
 }
-
-
-
-
-

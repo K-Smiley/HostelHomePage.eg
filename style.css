@@ -134,3 +134,22 @@ figcaption {
   font-style: italic;
   padding: 1em 0 1em 0;
 }
+
+form {
+  background-color: lightgrey;
+}
+fieldset {
+  border: 5px solid pink;
+  padding: 2em;
+}
+
+input {
+  margin: 0.2em;
+}
+
+legend {
+  padding: 0.2em;
+  background-color: darkslategrey;
+  color: white;
+  padding: 0.2em;
+}

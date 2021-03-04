@@ -58,6 +58,32 @@ main {
   height: 500px;
 }
 
+table {
+  border-collapse: collapse;
+  margin-top: 0.5em;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  padding: 0.5em;
+}
+
+thead {
+  font-weight: normal;
+  background-color: gray;
+  font-size: larger;
+}
+
+tr:nth-child(even) {
+  background-color: lightgrey;
+}
+
+tr:hover {
+  background-color: lightgreen;
+}
+
 /* navbar */
 nav {
   background-color: #183c28;
